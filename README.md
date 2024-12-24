@@ -58,3 +58,13 @@ http://localhost:5000/files/single
  in post man
  body -> form-data ->[ file(key) -> selected file (value) ]
 ```
+
+
+## .env file 
+```
+CLOUDINARY_CLOUD_NAME = 
+CLOUDINARY_API_KEY= 
+CLOUDINARY_API_SECRET= 
+PORT= 
+
+```
