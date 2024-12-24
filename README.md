@@ -68,3 +68,22 @@ CLOUDINARY_API_SECRET=
 PORT= 
 
 ```
+## Response type for sigle data
+```
+{
+    "message": "File uploaded successfully",
+    "data": "live-url"
+}
+
+```
+## Response type for many data
+```
+{
+    "message": "File uploaded successfully",
+    "data": [
+        "live-url1",
+        "live-url2"
+    ]
+}
+
+```
