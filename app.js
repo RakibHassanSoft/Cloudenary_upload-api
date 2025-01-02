@@ -19,7 +19,6 @@ app.use( cors({
     credentials: true, // Allow credentials
   });
 
-
 // File upload routes
 app.use('/files', fileRoutes);
 
